@@ -1,0 +1,25 @@
+{
+  "name": "weather_api",
+  "version": "1.0.0",
+  "description": "The Weather API",
+  "type": "module",
+  "main": "index.js",
+  "engines": {
+    "node": ">= 18.12 <21"
+  },
+  "license": "MIT",
+  "author": "Sushil Basnet",
+  "dependencies": {
+    "@faker-js/faker": "^9.5.0",
+    "express": "^4.21.2",
+    "express-validator": "^7.2.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.5",
+    "nodemon": "^3.1.9",
+    "npm-run": "^5.0.1",
+    "ts-node": "^10.9.2",
+    "tslib": "^2.8.1",
+    "typescript": "^5.7.3"
+  }
+}
